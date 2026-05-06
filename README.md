@@ -7,6 +7,7 @@
 ## Inputs
 
 - **Number_of_Teeth** (number)
+- **Thickness** (number)
 
 
 

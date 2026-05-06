@@ -8,6 +8,10 @@
     {
       "name": "Number_of_Teeth",
       "ioValue": 10
+    },
+    {
+      "name": "Thickness",
+      "ioValue": 6
     }
   ],
   "topLevel": true,
@@ -26,14 +30,13 @@
     },
     {
       "atomType": "Code",
-      "x": 0.3816137566137566,
-      "y": 0.5766016713091923,
+      "x": 0.39153439153439157,
+      "y": 0.5793871866295265,
       "uniqueID": "id-746",
       "ioValues": [
         {
           "name": "numberOfTeeth",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "width",
@@ -47,9 +50,16 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.298050139275766,
+      "y": 0.15384615384615385,
       "uniqueID": "id-753",
       "name": "Number_of_Teeth"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.5487465181058496,
+      "uniqueID": "id-762",
+      "name": "Thickness"
     }
   ],
   "allConnectors": [
@@ -61,6 +71,11 @@
     {
       "ap2Name": "numberOfTeeth",
       "ap1ID": "id-753",
+      "ap2ID": "id-746"
+    },
+    {
+      "ap2Name": "width",
+      "ap1ID": "id-762",
       "ap2ID": "id-746"
     }
   ],
